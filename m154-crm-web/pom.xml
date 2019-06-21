@@ -5,6 +5,11 @@
 	<groupId>m154-crm-web</groupId>
 	<artifactId>m154-crm-web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -31,14 +36,12 @@
 			<groupId>m154-crm-business</groupId>
 			<artifactId>m154-crm-business</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-			<scope>system</scope>
-			<systemPath>C:\dev\knw\m154-crm-business\target\m154-crm-business-0.0.1-SNAPSHOT.jar</systemPath>
 		</dependency>
 	</dependencies>
 
 	<build>
 		<plugins>
-		<plugin>
+			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-shade-plugin</artifactId>
 				<version>3.1.0</version>
@@ -99,7 +102,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			
+
 		</plugins>
 	</build>
 </project>
