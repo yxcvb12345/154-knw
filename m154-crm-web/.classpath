@@ -6,12 +6,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/classes" path="resources">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/resources"/>
 	<classpathentry kind="src" path="src/test/java"/>
 	<classpathentry kind="lib" path="lib/annotations-13.0.jar"/>
 	<classpathentry kind="lib" path="lib/guava-19.0.jar"/>
